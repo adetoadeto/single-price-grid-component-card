@@ -26,6 +26,7 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--light-gray);
+    font-weight: 400;
 }
 
 li {
@@ -43,7 +44,7 @@ li {
 }
 
 article h3 {
-    font-weight: 700;
+    font-weight: var(--bold-font-weight);
 }
 
 .join-community {
@@ -57,7 +58,7 @@ article h3 {
 .join-community p#thirty-day {
     margin: 1.5rem 0;
     color: var(--bright-yellow);
-    font-weight: 700;
+    font-weight: var(--bold-font-weight);
 }
 .join-community p#notes {
     color: var(--grayish-blue);
@@ -94,7 +95,12 @@ article h3 {
     font: inherit;
     color: inherit;
     margin-top: 2rem;
-    font-weight: 700;
+    font-weight: var(--bold-font-weight);
+}
+
+.monthly-subscription button:hover {
+    cursor: pointer;
+    background-color: var(--grayish-blue);
 }
 
 .why-us{
